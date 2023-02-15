@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "cross-env PUBLIC_URL=/Uroto react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "npm run build && gh-pages -d build"
@@ -39,5 +39,6 @@
   "devDependencies": {
     "cross-env": "^7.0.3",
     "gh-pages": "^5.0.0"
-  }
+  },
+  "homepage": "https://0fk0.github.io/Uroto"
 }
