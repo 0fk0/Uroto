@@ -1,3 +1,5 @@
+import React from 'react';
+
 class Introduction extends React.Component{
     goodFace = ":)";
     badFace = ":(";
@@ -34,6 +36,4 @@ class Introduction extends React.Component{
     }
 }
 
-const dom = document.querySelector("#root");
-const elm = <Introduction/>;
-ReactDOM.render(elm, dom);
+export default Introduction
