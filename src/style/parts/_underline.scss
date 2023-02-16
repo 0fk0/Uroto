@@ -1,0 +1,6 @@
+@mixin ul {
+    :hover {
+        text-decoration:underline wavy red;
+        cursor: pointer;
+    }
+}

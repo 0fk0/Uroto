@@ -1,0 +1,73 @@
+body {
+  overflow: hidden;
+  background-color: black;
+  font-family: "Roboto Slab", serif;
+  margin: 0;
+}
+@media (max-width: 599px) {
+  body {
+    font-size: 1em;
+  }
+}
+@media (min-width: 600px) {
+  body {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 960px) {
+  body {
+    font-size: 2em;
+  }
+}
+@media (min-width: 1280px) {
+  body {
+    font-size: 1.5em;
+  }
+}
+body ul {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+body ul :hover {
+  -webkit-text-decoration: underline wavy red;
+          text-decoration: underline wavy red;
+  cursor: pointer;
+}
+body button {
+  margin: 0px 1px;
+  border-radius: 10px;
+  background-color: yellow;
+}
+body button :hover {
+  -webkit-text-decoration: underline wavy red;
+          text-decoration: underline wavy red;
+  cursor: pointer;
+}
+body #root #Header {
+  color: white;
+}
+body #root .content {
+  width: 80vw;
+  height: 97vh;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+body #root .content .inside {
+  border: solid 10px;
+  overflow-x: hidden;
+  position: absolute;
+  inset: 0px 0px 5% 0px;
+  padding: 0px 3%;
+  background-color: darkseagreen;
+}
+body #root .content .inside h1 {
+  border-bottom: 1px solid;
+}
+body #root .content .inside .detail {
+  text-align: center;
+}
+body #root .content #selects {
+  position: absolute;
+  inset: 95% 0px 0px 0px;
+}/*# sourceMappingURL=style.css.map */

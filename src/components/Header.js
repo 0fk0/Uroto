@@ -1,8 +1,12 @@
 import React from "react";
+import miniIcon from "../img/miniIcon.png"
 
 function Header(){
     return (
-        <i>Uroto/fk</i>
+        <div id="Header">
+            <img src={miniIcon}/>
+            <i>Uroto</i>
+        </div>
     );
 }
 
