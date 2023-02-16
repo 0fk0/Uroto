@@ -23,7 +23,7 @@ class Introduction extends React.Component{
             return (
                 <div>
                     <button onClick={this.CaseByClick}>{this.goodFace}</button>
-                    <h1>So Cool!</h1>    
+                    <h1>So Cool!</h1>
                 </div>
             );
         }
