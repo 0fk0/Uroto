@@ -44,11 +44,12 @@ body button :hover {
   cursor: pointer;
 }
 body #root #Header {
+  height: 3vh;
   color: white;
 }
 body #root .content {
-  width: 80vw;
   height: 97vh;
+  width: 80vw;
   position: relative;
   text-align: center;
   margin: 0 auto;

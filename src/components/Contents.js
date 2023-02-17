@@ -1,6 +1,7 @@
 import React from 'react';
 import icon from "../img/icon_325px.png"
 import "../img/icon/style.css"
+import setWindowSize from './modules_js/setWindowSize';
 
 class Contents extends React.Component {
     constructor(props){
@@ -8,7 +9,7 @@ class Contents extends React.Component {
         this.state = {
             contents_index: 1
         };
-
+        setWindowSize();
         this.changeIndex = this.changeIndex.bind(this);
     }
 
