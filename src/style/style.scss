@@ -82,6 +82,25 @@ body {
                     inset: 95% 0px 0px 0px;
                     text-align: center;
                 }
+
+                img {
+                    @include rp.mq(sm){
+                        width: 5em;
+                        height: 5em;
+                    }
+                    @include rp.mq(md){
+                        width: 5em;
+                        height: 5em;
+                    }
+                    @include rp.mq(lg){
+                        width: 10em;
+                        height: 10em;
+                    }
+                    @include rp.mq(xl){
+                        width: 20em;
+                        height: 20em;
+                    }
+                }
             }    
         }
     }

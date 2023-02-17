@@ -85,4 +85,28 @@ body #root .App .content #selects {
   position: absolute;
   inset: 95% 0px 0px 0px;
   text-align: center;
+}
+@media (max-width: 599px) {
+  body #root .App .content img {
+    width: 5em;
+    height: 5em;
+  }
+}
+@media (min-width: 600px) {
+  body #root .App .content img {
+    width: 5em;
+    height: 5em;
+  }
+}
+@media (min-width: 960px) {
+  body #root .App .content img {
+    width: 10em;
+    height: 10em;
+  }
+}
+@media (min-width: 1280px) {
+  body #root .App .content img {
+    width: 20em;
+    height: 20em;
+  }
 }/*# sourceMappingURL=style.css.map */
