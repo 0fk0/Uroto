@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Uroto/static/css/main.ade20381.css",
-    "main.js": "/Uroto/static/js/main.86c5a3df.js",
+    "main.css": "/Uroto/static/css/main.0e5f57bb.css",
+    "main.js": "/Uroto/static/js/main.e88dfaed.js",
     "static/media/icon_325px.png": "/Uroto/static/media/icon_325px.51dd7cc8498c2ef02638.png",
     "static/media/icomoon.svg?b15107": "/Uroto/static/media/icomoon.87c27a949ebcf40d6ce6.svg",
     "static/media/icomoon.eot?b15107": "/Uroto/static/media/icomoon.292486e188d7822a7cb6.eot",
     "static/media/icomoon.woff?b15107": "/Uroto/static/media/icomoon.ec68111c5673bf3deaaa.woff",
     "static/media/icomoon.ttf?b15107": "/Uroto/static/media/icomoon.3d744982efd346cbfad4.ttf",
     "index.html": "/Uroto/index.html",
-    "main.ade20381.css.map": "/Uroto/static/css/main.ade20381.css.map",
-    "main.86c5a3df.js.map": "/Uroto/static/js/main.86c5a3df.js.map"
+    "main.0e5f57bb.css.map": "/Uroto/static/css/main.0e5f57bb.css.map",
+    "main.e88dfaed.js.map": "/Uroto/static/js/main.e88dfaed.js.map"
   },
   "entrypoints": [
-    "static/css/main.ade20381.css",
-    "static/js/main.86c5a3df.js"
+    "static/css/main.0e5f57bb.css",
+    "static/js/main.e88dfaed.js"
   ]
 }
