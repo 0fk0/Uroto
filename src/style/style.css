@@ -44,11 +44,9 @@ body button :hover {
   cursor: pointer;
 }
 body #root #Header {
-  height: 3vh;
   color: white;
 }
 body #root .content {
-  height: 97vh;
   width: 80vw;
   position: relative;
   text-align: center;
