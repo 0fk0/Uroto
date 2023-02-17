@@ -1,7 +1,13 @@
 @use "./parts/underline" as ul;
 @use "./parts/responsive" as rp;
 
+html{
+    height: -webkit-fill-available;
+}
+
 body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
     overflow: hidden;
     background-color: black;
     font-family: 'Roboto Slab', serif;
@@ -36,10 +42,12 @@ body {
     
     #root {
         #Header {
+            height: 3vh;
             color: white;
         }
 
         .content {
+            height: 97vh;
             width: 80vw;
             position: relative;
             text-align: center;
