@@ -41,41 +41,49 @@ body {
     }
     
     #root {
-        #Header {
-            height: 3vh;
-            color: white;
-        }
+        .App {
+            min-height: 100vh;
+            min-height: -webkit-fill-available;
 
-        .content {
-            height: 97vh;
-            width: 80vw;
-            position: relative;
-            text-align: center;
-            margin: 0 auto;
-
-            .inside {
-                border: solid 10px;
-                overflow-x: hidden;
+            #Header {
+                height: 3%;
+                color: white;
+            }
+    
+            .content {
+                height: 97%;
+                width: 80vw;
                 position: absolute;
-                inset: 0px 0px 5% 0px;
-                padding:0px 3%;
-                background-color: darkseagreen;
-
-                h1 {
-                    border-bottom: 1px solid;
+                top: 3%;
+                left: 50%;
+                transform: translateX(-50%);
+                -webkit-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+    
+                .inside {
+                    border: solid 10px;
+                    overflow-x: hidden;
+                    position: absolute;
+                    inset: 0px 0px 5% 0px;
+                    padding:0px 3%;
+                    background-color: darkseagreen;
+    
+                    h1 {
+                        border-bottom: 1px solid;
+                    }
+    
+                    .detail {
+                        text-align: center;
+                    }
                 }
-
-                .detail {
+    
+                #selects{
+                    position: absolute;
+                    inset: 95% 0px 0px 0px;
                     text-align: center;
                 }
-            }
-
-            #selects{
-                position: absolute;
-                inset: 95% 0px 0px 0px;
-            }
+            }    
         }
-
     }
 
 }
